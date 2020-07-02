@@ -8,8 +8,8 @@ if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
   exit;
 }
  
-// Include config file
-require_once "config.php";
+// Include database file
+require_once "db/db.php";
  
 // Define variables and initialize with empty values
 $username = $password = "";
