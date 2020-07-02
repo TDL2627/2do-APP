@@ -3,6 +3,9 @@ body {
   margin: 0;
   min-width: 250px;
   background-color: whitesmoke;
+  animation-name: kenburns-top-left ;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
 }
 
  */
@@ -222,10 +225,43 @@ h1 {font-family: 'Bangers', cursive;
    max-width: 90%;
    padding-left: 5%;
    padding-right: 5%;
-   margin-left: 35%;
+   margin-left: 45%;
   }
   h3{
     color: goldenrod;
     padding-left: 25%;
     padding-top: 10%;
   }
+  .kenburns-top-left {
+    -webkit-animation: kenburns-top-left 5s ease-out infinite both;
+            animation: kenburns-top-left 5s ease-out infinite both;
+  }
+
+@-webkit-keyframes kenburns-top-left {
+  0% {
+    -webkit-transform: scale(1) translate(0, 0);
+            transform: scale(1) translate(0, 0);
+    -webkit-transform-origin: 16% 16%;
+            transform-origin: 16% 16%;
+  }
+  100% {
+    -webkit-transform: scale(1.25) translate(-20px, -15px);
+            transform: scale(1.25) translate(-20px, -15px);
+    -webkit-transform-origin: top left;
+            transform-origin: top left;
+  }
+}
+@keyframes kenburns-top-left {
+  0% {
+    -webkit-transform: scale(1) translate(0, 0);
+            transform: scale(1) translate(0, 0);
+    -webkit-transform-origin: 16% 16%;
+            transform-origin: 16% 16%;
+  }
+  100% {
+    -webkit-transform: scale(1.25) translate(-20px, -15px);
+            transform: scale(1.25) translate(-20px, -15px);
+    -webkit-transform-origin: top left;
+            transform-origin: top left;
+  }
+}
