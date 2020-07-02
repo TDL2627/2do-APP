@@ -10,7 +10,7 @@ $link =mysqli_connect($DB_SERVER, $DB_USERNAME, $DB_PASSWORD, $DB_NAME);
 if (!$link){
     die("CONNECTION FAILED". mysqli_connect_error());
 }else{
-    echo "connected successfully";
+    echo "MYSQL DATABASE connected successfully";
 }
 
 ?>
