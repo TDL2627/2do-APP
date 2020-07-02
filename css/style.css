@@ -118,7 +118,8 @@ input {
 }
 
 .addBtn:hover {
-  background-color: rgb(240, 25, 25);
+  background-color: blueviolet;
+  margin-left: 25%;
 }
 
 .log{font-family: 'Bangers', cursive;
