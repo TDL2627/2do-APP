@@ -79,7 +79,7 @@ ul li.checked::before {
 
 
 .header {
-  background-color: blue;
+  background-color: black;
   padding: 30px 40px;
   color: white;
   text-align: center;
@@ -216,4 +216,10 @@ h1 {font-family: 'Bangers', cursive;
   }
   p {
     font-family: 'Bangers', cursive;
+  }
+  .log {
+   max-width: 90%;
+   padding-left: 5%;
+   padding-right: 5%;
+   margin-left: 35%;
   }

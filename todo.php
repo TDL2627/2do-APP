@@ -21,13 +21,10 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
     <link rel="stylesheet" href="css/style.css">
     <title>TO DO APP</title>
   </head>
-  
-  
-</head>
 <body>
 
 <div id="myDIV" class="header">
-  <h2 >My To Do List</h2>
+  <h2 >2do List</h2>
   <input type="text" id="myInput" placeholder="Add...">
   <span onclick="newElement()" class="addBtn">Add</span>
 </div>
