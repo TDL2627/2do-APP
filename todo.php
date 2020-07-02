@@ -92,7 +92,7 @@ function newElement() {
 </script>
 <p>
         
-        <a href="logout.php" class="btn btn-danger">Sign Out of Your Account</a>
+        <a href="logout.php" class="btn btn-danger">Sign Out</a>
     </p>
    
     <!-- jQuery -->
