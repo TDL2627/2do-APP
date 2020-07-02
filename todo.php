@@ -19,13 +19,13 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
-    <title>TO DO APP</title>
+    <title>2do APP</title>
   </head>
 <body>
 
 <div id="myDIV" class="header">
   <h2 >2do List</h2>
-  <input type="text" id="myInput" placeholder="Add...">
+  <input type="text" id="myInput" placeholder="Add task here..">
   <span onclick="newElement()" class="addBtn">Add</span>
 </div>
 
